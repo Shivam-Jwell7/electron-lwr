@@ -1,0 +1,22 @@
+{
+  "name": "lwc-electron-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@lwc/rollup-plugin": "^1.0.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup": "^2.0.0"
+  },
+  "dependencies": {
+    "@lwc/compiler": "^6.6.3",
+    "@lwc/engine": "^1.17.6",
+    "electron": "^13.0.0",
+    "rollup-plugin-string": "^3.0.0"
+  }
+}
